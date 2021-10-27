@@ -63,7 +63,7 @@ https://www.platofarm.game/index
 **返回值**
 > token URI, 字符串类型
 
-> token URI = https://resource.platofarm.game/nft/ + tokenId, eg: https://resource.platofarm.game/nft/100000059241
+> 备注： token URI = https://resource.platofarm.game/nft/ + tokenId, eg: https://resource.platofarm.game/nft/100000059241
 
 
 ## 7. NFT种类说明
