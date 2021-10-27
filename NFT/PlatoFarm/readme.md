@@ -67,6 +67,7 @@ https://www.platofarm.game/index
 
 
 ## 7. NFT种类说明
+该项目的NFT token有很多种类（农田/国田/种子等等），可根据token id来获取种类信息。
 
 tokenId的前三位数字用于区别NFT token所属的分类：
 
