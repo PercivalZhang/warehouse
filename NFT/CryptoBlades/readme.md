@@ -86,13 +86,26 @@ Weapon和Shield都隶属于装备，因此除了装备属性多少不同外，�
 **返回值**
 > 整形int， NFT Token星级code，0～4对应星级1～5星
 ---
-
-
 **getTrait**(*int tokenId*) - 获取目标装备的元素属性
 
- 
 **输入参数**
 > tokenId: token编号
 
 **返回值**
 > 整形int，装备具备元素属性，可以是以下4种元素中的一个（0:Fire火 | 1:Earth土 ｜ 2:Lightning闪电 ｜ 3:Wate水）
+---
+**getDurabilityPoints**(*int tokenId*) - 获取目标装备的耐久度
+
+**输入参数**
+> tokenId: token编号
+
+**返回值**
+> 整形int，装备耐久度
+---
+**get**(*int tokenId*) - 获取目标装备的详情
+
+**输入参数**
+> tokenId: token编号
+
+**返回值**
+> 结构体，包含了装备的主要的信息
