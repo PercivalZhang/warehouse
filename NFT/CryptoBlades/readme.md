@@ -18,11 +18,11 @@ https://app.cryptoblades.io/
 
 
 ## 4. ABI文件：
-[character.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
+[character.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/character.json)
 
-[weapon.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
+[weapon.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/weapon.json)
 
-[shield.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
+[shield.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/shield.json)
 
 ## 5. 关键合约方法
 ### 5.1 通用方法
