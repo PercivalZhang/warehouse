@@ -342,4 +342,4 @@ const  callbackShield = async (tokenId: Number, helper: ContractHelper) => {
 
 ## 7 查询验证结果
 
-![image]([https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/Screen%20Shot%202021-10-28%20at%204.55.38%20PM.png](https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/Screen%20Shot%202021-10-28%20at%204.55.38%20PM.png)
+![image]([https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/Screen%20Shot%202021-10-28%20at%204.55.38%20PM.png](https://github.com/PercivalZhang/warehouse/blob/main/NFT/CryptoBlades/Screen%20Shot%202021-10-28%20at%204.55.38%20PM.png))
