@@ -19,7 +19,9 @@ https://app.cryptoblades.io/
 
 ## 4. ABI文件：
 [character.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
+
 [weapon.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
+
 [shield.json](https://github.com/PercivalZhang/warehouse/blob/main/NFT/PlatoFarm/plato.nft.json)
 
 ## 5. 关键合约方法
@@ -80,7 +82,7 @@ https://app.cryptoblades.io/
 > tokenId: token编号
 
 **返回值**
-> 整形int，装备具备元素属性，可以是以下5种元素中的一个（0:Fire火 | 1:Earth土 ｜ 2:Lightning闪电 ｜ 3:Water水｜ 4:PWT非元素）
+> 整形int，NFT具备的元素属性，可以是以下5种元素中的一个（0:Fire火 | 1:Earth土 ｜ 2:Lightning闪电 ｜ 3:Water水｜ 4:PWT非元素）
 
 ### 5.2 Weapon/Shield通用方法
 Weapon和Shield都隶属于装备，因此除了装备属性多少不同外，合约大部分相同，该章节列取了两个合约中都通用的方法。
@@ -94,7 +96,9 @@ Weapon和Shield都隶属于装备，因此除了装备属性多少不同外，�
 > 整形int， NFT Token的状态模式code，该code用于查询装备附加属性对应的元素trait类别
 ---
 **getStat1Trait**(*int statPattern*) - 获取目标装备附加属性1的元素trait类型
+
 **getStat2Trait**(*int statPattern*) - 获取目标装备附加属性2的元素trait类型
+
 **getStat3Trait**(*int statPattern*) - 获取目标装备附加属性3的元素trait类型
 
 **输入参数**
