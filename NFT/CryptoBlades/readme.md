@@ -84,7 +84,16 @@ https://app.cryptoblades.io/
 **返回值**
 > 整形int，NFT具备的元素属性，可以是以下5种元素中的一个（0:Fire火 | 1:Earth土 ｜ 2:Lightning闪电 ｜ 3:Water水｜ 4:PWT非元素）
 
-### 5.2 Weapon/Shield通用方法
+### 5.2 Character独有方法
+**getPower**(*int tokenId*) - 获取英雄的战力值
+
+**输入参数**
+> tokenId: token编号
+
+**返回值**
+> 整形int， 战力值
+
+### 5.3 Weapon/Shield通用方法
 Weapon和Shield都隶属于装备，因此除了装备属性多少不同外，合约大部分相同，该章节列取了两个合约中都通用的方法。
 
 **getStatPattern**(*int tokenId*) - 获取目标装备的状态模式Code
