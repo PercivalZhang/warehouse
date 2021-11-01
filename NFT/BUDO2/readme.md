@@ -58,8 +58,14 @@
 > token URI, 字符串类型
 
 > **备注：**本项目中的tokenURI返回的是一个URI链接，eg：https://budo2.com/api/nft/card/4  
-> 目前项目还没完全上线，因此该链接返回404，已经联系项目方，索取返回数据范例。
----
+> 该链接返回的数据如下：
+```
+{
+    "name": "Twilight Rain",
+    "description": "This NFT is a character card in BUDO II game. Twilight Rain Family. Level R",
+    "image": "https://www.budo2.com/img/a4.gif"
+}
+```
 
 ## 6. 测试代码
 ```
