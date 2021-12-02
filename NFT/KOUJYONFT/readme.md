@@ -77,7 +77,11 @@
 
 
 ## 7. NFT Token URI说明
-通过URI获取NFT的metadata元数据，比如tokenId为1的NFT的metadata数据如下：
+该合约NFT的tokenURI由baseURI + tokenId拼接而成，比如tokenId为1的NFT，其tokenURI为：https://nft.nextype.finance/nft/16/1
+
+通过NFT的tokenURI，可以获取NFT的metadata元数据，用于UI展示。
+
+比如tokenId为1的NFT，通过tokenURI获取的metadata数据如下：
 ```
 {
     "image": "https://gateway.pinata.cloud/ipfs/QmbQdZr6P52NopuCcxYNPvx3g269BfT5u43AJPGMSPoFM8",
